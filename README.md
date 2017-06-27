@@ -36,7 +36,7 @@ The car tried to stay in the middle of the road somewhat as it moved in zig zag.
 #### k_p = 0 & k_d = 0, k_i = 3.1, [-20, 20] degrees steer angle limit, throttle = 0.3 m/s^2
 k_i element alone performed very stable on straight driving but slowly hugged the right hand side of the track. This is similar behavior with k_p only case.
 
-#### k_p = 2.5, k_i = 0.004, k_d = 3.0, throttle = 0.3, [-20, 20] degrees steer angle limit, throttle = 0.3 m/s^2
+#### k_p = 2.0, k_i = 0.004, k_d = 3.0, throttle = 0.3, [-20, 20] degrees steer angle limit, throttle = 0.3 m/s^2
 With all elements P, I, D added to the control model, the car stays more consistently in the middle of the lane, less curve hugging and zig zag crossing. This is by far the best tuning parameters I have and after several loops of driving on the track, the car didn't fail or go off track.
 
 However, the manual tuning values does not provide a smooth riding for the car.
