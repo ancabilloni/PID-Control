@@ -1,6 +1,10 @@
 # PID Control
 The goal of this project is to develop a PID control model to control the steering angle of the autonomous car so it can stay on track.
 
+### File Structure
+1. ./src/PID.cpp & PID.h: PID calculation
+2. ./main.cpp: main file to compile PID on simulator
+
 ## Mathematical Model & Psudo Code
 
 ```
